@@ -357,8 +357,11 @@ async function initAll() {
 
   const loader = document.getElementById("page-loader");
   if (loader) {
-    loader.classList.add("opacity-0");
-    setTimeout(() => loader.remove(), 300);
+    loader.classList.add("opacity-0", "pointer-events-none");
+
+    setTimeout(() => {
+      loader.style.display = "none";
+    }, 300);
   }
 }
 
