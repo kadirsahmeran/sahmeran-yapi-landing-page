@@ -46,3 +46,6 @@ The project is completely static and requires no build tools, dependencies, or b
 2. Preview the project locally:
    - **Recommended (VS Code users):** Open the project folder in Visual Studio Code and click **"Go Live"** (using the Live Server extension). This starts a local server and provides the best experience.
    - **Alternative:** Simply open the `index.html` file directly in your web browser.
+## Notes
+
+This project was built to demonstrate clean HTML structure, scalable vanilla JavaScript architecture, and performance-focused frontend development without relying on frameworks.
